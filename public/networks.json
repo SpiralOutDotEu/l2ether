@@ -1,0 +1,29 @@
+{
+  "networks": [
+    {
+      "name": "Mainnet",
+      "rpcUrl": "https://ethereum-mainnet-rpc.allthatnode.com",
+      "chainId": 1
+    },
+    {
+      "name": "Goerli",
+      "rpcUrl": "https://eth-goerli.public.blastapi.io",
+      "chainId": 5
+    },
+    {
+      "name": "Sepolia",
+      "rpcUrl": "https://rpc.sepolia.org",
+      "chainId": 11155111
+    },
+    {
+      "name": "Scroll Alpha Testnet",
+      "rpcUrl": "https://scroll-alphanet.public.blastapi.io",
+      "chainId": 534353
+    },
+    {
+      "name": "Taiko (Alpha-2 Testnet)",
+      "rpcUrl": "https://rpc.a2.taiko.xyz",
+      "chainId": 167004
+    }
+  ]
+}
