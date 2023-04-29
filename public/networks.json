@@ -3,27 +3,58 @@
     {
       "name": "Mainnet",
       "rpcUrl": "https://ethereum-mainnet-rpc.allthatnode.com",
-      "chainId": 1
+      "chainId": 1,
+      "links": {
+        "website": "somesite",
+        "anotherSite": "anotherSite"
+      }
     },
     {
       "name": "Goerli",
       "rpcUrl": "https://eth-goerli.public.blastapi.io",
-      "chainId": 5
+      "chainId": 5,
+      "links": {
+        "website": "somesite"
+      }
     },
     {
       "name": "Sepolia",
       "rpcUrl": "https://rpc.sepolia.org",
-      "chainId": 11155111
+      "chainId": 11155111,
+      "links": {
+        "website": "somesite"
+      }
     },
     {
       "name": "Scroll Alpha Testnet",
       "rpcUrl": "https://scroll-alphanet.public.blastapi.io",
-      "chainId": 534353
+      "chainId": 534353,
+      "links": {
+        "Portal": "https://scroll.io/alpha",
+        "Bridge": "https://scroll.io/alpha/bridge",
+        "Guide": "https://guide.scroll.io/",
+        "Orbiter Bridge": "https://rinkeby.orbiter.finance/?dest=Scroll%20Alpha%28G%29&source=G%C3%B6rli",
+        "Uniswap": "https://uniswap-v3.scroll.io/#/swap",
+        "Guild": "https://guild.xyz/scrollzkp",
+        "Discord": "https://discord.gg/scroll",
+        "Testnet Guide 1": "https://www.publish0x.com/cryptonite-bet/zk-scroll-layer2-full-testnet-guide-xkpjyml"
+      }
     },
     {
-      "name": "Taiko (Alpha-2 Testnet)",
-      "rpcUrl": "https://rpc.a2.taiko.xyz",
-      "chainId": 167004
-    }
+      "name": "Linea Testnet",
+      "rpcUrl": "https://rpc.goerli.linea.build",
+      "chainId": 59140,
+      "links": {
+        "website": "somesite"
+      }
+    },
+    {
+      "name": "Base Goerli Testnet",
+      "rpcUrl": "https://goerli.base.org",
+      "chainId": 84531,
+      "links": {
+        "website": "somesite"
+      }
+    }    
   ]
 }
