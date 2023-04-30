@@ -35,10 +35,16 @@
         "Guide": "https://guide.scroll.io/",
         "Orbiter Bridge": "https://rinkeby.orbiter.finance/?dest=Scroll%20Alpha%28G%29&source=G%C3%B6rli",
         "Uniswap": "https://uniswap-v3.scroll.io/#/swap",
+        "Syncswap": "https://staging.syncswap.xyz/swap",
         "Guild": "https://guild.xyz/scrollzkp",
         "Discord": "https://discord.gg/scroll",
-        "Testnet Guide 1": "https://www.publish0x.com/cryptonite-bet/zk-scroll-layer2-full-testnet-guide-xkpjyml"
-      }
+        "Testnet Guide 1": "https://www.publish0x.com/cryptonite-bet/zk-scroll-layer2-full-testnet-guide-xkpjyml",
+        "Deploy a Contract": "https://mirror.xyz/boater.eth/83jYw-wgGFkBYlNxrUFgKOj2g9Q5uUNq7kgUtASokJo",
+        "Low Gas Token": "https://blockscout.scroll.io/address/0xeA9f2AEA12c85652Fbf440Cb6dDE37ad546C34bc/write-contract#address-tabs",
+        "The Pack: Low gas Mint token": "https://blockscout.scroll.io/address/0xC883B92ba4b54fd68998014E1570628852e017d1/write-contract#address-tabs",
+        "Game Scroll Kingdoms": "https://scroll-237a2.web.app/"
+      },
+      "comments": "Pass some Goerli from Bridge to Scroll. Follow the testnet guide. Make some swaps in Uniswap and SyncSwap. Check block explorers. Join Guild and discord and get mystery role. Make some low gas transactions. Deploy a contract. Mint Low Gas Token. Play the Game Scroll Kingdoms"
     },
     {
       "name": "Linea Testnet",
