@@ -87,7 +87,7 @@ const NetworksPage = () => {
 
   return (
     <div className="container mx-auto py-8">
-      <h1 className="text-3xl font-bold mb-4">L2Ether Central Station</h1>
+      <h1 className="text-3xl font-bold mb-4">L2 Ethereum Central Station</h1>
       {!address ? (
         <button
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
