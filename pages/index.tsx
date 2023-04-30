@@ -12,6 +12,7 @@ interface Network {
   rpcUrl: string;
   chainId: number;
   links: string;
+  comments: string;
 }
 
 interface NetworkBalance {
@@ -19,6 +20,7 @@ interface NetworkBalance {
   balance: string;
   txCount: string;
   links: any;
+  comments: string;
 
 }
 
@@ -59,10 +61,11 @@ const NetworksPage = () => {
       const txCountResponse = await axios.post(network.rpcUrl, txCountPayload);
       const txCount = ethers.formatUnits(txCountResponse.data.result, "wei");
       const links = network.links
+      const comments = network.comments
 
       console.log("Links: ", typeof (links))
       console.log("TX Count: ", txCount)
-      const networkBalance = { networkName: network.name, balance, txCount, links };
+      const networkBalance = { networkName: network.name, balance, txCount, links , comments};
       setBalanceData((prevState) => [...prevState, networkBalance]);
     } catch (error) {
       console.error(error);
@@ -105,6 +108,7 @@ const NetworksPage = () => {
                   <th className="px-4 py-2">Balance</th>
                   <th className="px-4 py-2">tx Count</th>
                   <th className="px-4 py-2">Links</th>
+                  <th className="px-4 py-2">To Do</th>
                 </tr>
               </thead>
               <tbody>
@@ -122,6 +126,10 @@ const NetworksPage = () => {
                         </a>
                       ))
 
+                    }</td>
+                    <td className="border px-4 py-2">{
+                    balance.comments &&
+                    <span>{balance.comments}</span>
                     }</td>
                   </tr>
                 ))}
