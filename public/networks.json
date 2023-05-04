@@ -51,8 +51,17 @@
       "rpcUrl": "https://rpc.goerli.linea.build",
       "chainId": 59140,
       "links": {
-        "website": "somesite"
-      }
+        "website": "https://linea.build/",
+        "Docs": "https://docs.linea.build/overview",
+        "Linea Faucet": "https://faucet.goerli.linea.build",
+        "Galxe": "https://galxe.com/Linea/campaigns",
+        "Multichain Bridge": "https://test.multichain.org/#/router",
+        "HOP Bridge": "https://goerli.hop.exchange/#/send?token=USDC&destNetwork=linea&sourceNetwork=ethereum",
+        "Celer Bridge": "https://dev-cbridge-v2.netlify.app/43113/59140/AVAX",
+        "Avax Faucet": "https://faucet.avax.network/"
+        
+      },
+      "comments": "Follow Galxe Voyage"
     },
     {
       "name": "Base Goerli Testnet",
